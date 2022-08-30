@@ -1,0 +1,34 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: hotpink;
+}
+
+.div__block-examples > * {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.div__static--yellow {
+  background-color: yellow;
+}
+
+.div__relative--hotpink {
+  background-color: hotpink;
+}
+
+.div__fixed--blue {
+  background-color: blue;
+}
+
+.div__absolute--red {
+  background-color: red;
+}
+
+.div__sticky--peru {
+  background-color: peru;
+}
