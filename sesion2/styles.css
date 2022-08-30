@@ -1,0 +1,27 @@
+table,
+th,
+td,
+div {
+  /* reglas CSS */
+  border: 1px solid black;
+}
+
+.hi {
+  border: none;
+  color: blueviolet;
+  font-size: 2cm;
+}
+
+.howAreU {
+  border: 10px dotted gray;
+  background-color: aqua;
+  color: brown;
+  font-size: 1rem;
+}
+
+#id_container {
+  width: 30vw;
+  height: 100vh;
+  border: 5px solid rgb(20, 54, 117);
+  background-color: orangered;
+}
