@@ -78,3 +78,40 @@ h1 {
 .button__ease-out--yellow:hover {
   width: 240px;
 }
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: aqua;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: turquoise;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: hotpink;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+} */
+
+.div__card--border-balck {
+  width: 180px;
+  height: 300px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
