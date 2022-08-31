@@ -15,10 +15,14 @@ h1 {
 
 .div__static--yellow {
   background-color: yellow;
+  position: static;
 }
 
 .div__relative--hotpink {
   background-color: hotpink;
+  position: relative;
+  top: 40px;
+  left: 40px;
 }
 
 .div__fixed--blue {

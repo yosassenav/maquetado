@@ -1,0 +1,80 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: hotpink;
+}
+
+.button__key-frames--hotpink {
+  width: 144px;
+  height: 42px;
+  background-color: hotpink;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.button__key-frames--hotpink:hover {
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+.div__2D-transforms > .button {
+  margin: 30px;
+  border: none;
+  width: 180px;
+  border-radius: 15px 0 15px 0;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.button__linear--blue {
+  background-color: blue;
+  transition-timing-function: linear;
+}
+
+.button__ease-in--green {
+  background-color: green;
+  transition-timing-function: ease-in;
+}
+
+.button__ease-in--green:hover {
+  width: 240px;
+}
+
+.button__ease--hotpink {
+  background-color: hotpink;
+  transition-timing-function: ease;
+}
+
+.button__ease-out--yellow {
+  color: black;
+  background-color: yellow;
+  transition-timing-function: ease-out;
+}
+
+.button__ease-out--yellow:hover {
+  width: 240px;
+}
