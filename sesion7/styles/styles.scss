@@ -1,0 +1,25 @@
+@import "vars";
+
+h1 {
+  color: $esteban-color;
+}
+p {
+  color: $esteban-color;
+  font-weight: $font-bold;
+}
+
+.div__flex-container {
+  display: flex;
+  .div__flex-box {
+    width: 90px;
+    height: 90px;
+    border: $standard-border;
+    background-color: $esteban-color;
+    margin: 15px;
+  }
+  .div__flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

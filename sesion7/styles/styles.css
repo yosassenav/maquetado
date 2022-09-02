@@ -1,0 +1,24 @@
+h1 {
+  color: blue;
+}
+
+p {
+  color: blue;
+  font-weight: bold;
+}
+
+.div__flex-container {
+  display: flex;
+}
+.div__flex-container .div__flex-box {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  background-color: blue;
+  margin: 15px;
+}
+.div__flex-container .div__flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
